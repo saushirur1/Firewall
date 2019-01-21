@@ -1,0 +1,25 @@
+a. Testing
+--> I tested the code using different csv files which have different rules for the firewall (tried some cases using accept_packet() function 
+in main).
+
+b. Algorithmic choices
+--> I used a map in map data structure to store direction and protocols to make the query faster at the expense of using more space.
+--> A list was used in the inner map to store port_info type objects, these objects has port info and the IP ranges for quick access.
+--> I implemented a function to check for the port numbers using binary search to reduce the search time (first wrote a normal
+function then worked on a binary search function)
+
+c.Optimization if I had more time
+--> The ports are searched using binary search as they are kept in sorted order, I wanted to sort the Ip's as well to reduce
+the search time. 
+--> If a CIDR notation was available then I could just use the subnet mask to make the search really fast.
+
+Team area and Interests (I am really interested in the work done by all the teams)
+
+1. Data Team - 
+--> Really interested in building and learning more about fault tolerant data pipelines to serve interfaces.
+
+2. Policy Team-
+--> Really interested in user based rules and policies to control VPN connections between servers.
+
+3. Platform Team-
+--> Really interested in building application that can constantly monitor the performance of servers.
