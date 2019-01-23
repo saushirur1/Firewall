@@ -9,6 +9,7 @@ b. Algorithmic choices
 function then worked on a binary search function)
 
 c.Optimization if I had more time
+--> Merging IP ranges for easier search
 --> The ports are searched using binary search as they are kept in sorted order, I wanted to sort the Ip's as well to reduce
 the search time. 
 --> If a CIDR notation was available then I could just use the subnet mask to make the search really fast.
