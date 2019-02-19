@@ -13,14 +13,3 @@ c.Optimization if I had more time
 --> The ports are searched using binary search as they are kept in sorted order, I wanted to sort the Ip's as well to reduce
 the search time. 
 --> If a CIDR notation was available then I could just use the subnet mask to make the search really fast.
-
-Team area and Interests (I am really interested in the work done by all the teams)
-
-1. Data Team - 
---> Really interested in building and learning more about fault tolerant data pipelines to serve interfaces.
-
-2. Policy Team-
---> Really interested in user based rules and policies to control VPN connections between servers.
-
-3. Platform Team-
---> Really interested in building application that can constantly monitor the performance of servers.
